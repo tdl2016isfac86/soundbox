@@ -14,7 +14,13 @@
 
 <link rel="stylesheet" type="text/css" href="style.css">
 
-
+<script src="./audiojs/audio.min.js"></script>
+<link rel="stylesheet" href="./includes/index.css" media="screen">
+<script>
+audiojs.events.ready(function() {
+audiojs.createAll();
+});
+</script>
 
 </head>
 
@@ -22,7 +28,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3"></div>
+			<div class="col-lg-3"><audio src="/sons/scandale.mp3" preload="auto" /></div>
 		</div>
 	</div>
 
